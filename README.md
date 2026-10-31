@@ -7,7 +7,7 @@ Codex에게 "github.com/junhjun/harness-kit 를 ~/harness-kit에 clone하고 REA
 
 적용 순서:
 1. clone한 폴더는 작업 폴더 밖에 둔다.
-2. `AGENTS.md`를 작업 폴더에 복사한다. 작업 폴더에 `AGENTS.md`가 이미 있으면 덮어쓰지 말고 뒤에 덧붙인다.
+2. `AGENTS.md`를 작업 폴더에 복사한다. 작업 폴더에 `AGENTS.md`가 이미 있으면 먼저 읽고, 덮어쓰지 말고 맨 뒤에 `---`와 `# 개인 작업 규칙 (harness-kit)` 제목을 넣은 다음 덧붙인다. 원래 내용 요약과 내 규칙과 부딪히는 점을 사용자에게 알린다. 부딪히면 원래 규칙을 따른다.
 3. `.agents/skills/` 안의 폴더를 작업 폴더의 `.agents/skills/`로 복사한다.
 4. 적용이 끝나면 아래 사용법을 사용자에게 그대로 보여 준다.
 
